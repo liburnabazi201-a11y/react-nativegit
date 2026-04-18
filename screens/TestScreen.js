@@ -2,10 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const MainScreen = () => {
+const TestScreen = () => {
     return(
         <View style={styles.container}>
-            <Text style={styles.textStart}>this is the main screen</Text>
+            <Text style={styles.textStart}>this is the test screen</Text>
+            
         </View>
     )
 }
@@ -13,13 +14,14 @@ const MainScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        backgroundColor: '#cbeaa7',
+        backgroundColor: '#dd3838',
         alignItems: 'center',
         justifyContent:'center'
     },
-    textStyle : {
-        fontSize: 30
+    textStart : {
+        fontSize: 30,
+        color: 'white'
     }
-}) 
+});
 
-export default MainScreen;
+export default TestScreen;
